@@ -44,10 +44,10 @@
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="#services">Fasilitas</a></li>
+          <li><a href="#portfolio"></a></li>
+          <li><a href="#team">Activity & Event</a></li>
+          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -79,7 +79,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="{{ asset('style/assets/img/hero-bg.jpg')}}" alt="" data-aos="fade-in">
+      <img src="{{ asset('style/assets/img/peninsula/1.JPG')}}" alt="" data-aos="fade-in">
 
       <div class="container d-flex flex-column align-items-center">
         <h2 data-aos="fade-up" data-aos-delay="100">Jelajahi Keindahan Peninsula Island</h2>
@@ -100,9 +100,9 @@
         <div class="row gy-4">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3>Tentang Peninsula Island</h3>
-            <img src="{{ asset('style/assets/img/about.jpg')}}" class="img-fluid rounded-4 mb-4" alt="">
+            <img src="{{ asset('style/assets/img/peninsula/2.JPG')}}" class="img-fluid rounded-4 mb-4" alt="">
             <p>Pulau Peninsula, surga kecil seluas 7,4 hektar, menjadi sebuah permata di bagian selatan Bali. Terletak di dalam area ITDC Nusa Dua yang bergengsi, Pulau Peninsula menawarkan perpaduan menakjubkan antara pemandangan laut biru, tebing karang yang menakjubkan, dan pantai berpasir putih yang masih alami.</p>
-            <p>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p>
+            <p>Pulau Peninsula juga dikenal sebagai lokasi ikonik untuk berbagai acara penting, mulai dari festival musik, upacara budaya, hingga event olahraga internasional. Dengan areanya yang luas dan pemandangan terbuka ke arah Samudra Hindia, Peninsula Island menawarkan pengalaman wisata yang tak hanya santai, tapi juga berkelas.</p>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
             <div class="content ps-0 ps-lg-5">
@@ -115,12 +115,11 @@
                 <li><i class="bi bi-check-circle-fill"></i> <span>Suasana yang tenang sangat cocok untuk relaksasi dan liburan santai.</span></li>
               </ul>
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                Peninsula Island bukan hanya menawarkan keindahan visual, tetapi juga ketenangan yang sulit ditemukan di tempat lain. Setiap langkah di pulau kecil ini adalah undangan untuk menikmati Bali dalam versi yang lebih damai, asri, dan penuh keajaiban.
               </p>
 
               <div class="position-relative mt-4">
-                <img src="{{ asset('style/assets/img/about-2.jpg')}}" class="img-fluid rounded-4" alt="">
+                <img src="{{ asset('style/assets/img/peninsula/3.JPG')}}" class="img-fluid rounded-4" alt="">
                 <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
               </div>
             </div>
@@ -132,7 +131,7 @@
     </section><!-- /About Section -->
 
     <!-- Stats Section -->
-    <section id="stats" class="stats section light-background">
+    {{-- <section id="stats" class="stats section light-background">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -182,7 +181,7 @@
 
       </div>
 
-    </section><!-- /Stats Section -->
+    </section><!-- /Stats Section --> --}}
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -190,7 +189,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Services</h2>
-        <p>Featured Srvices<br></p>
+        <p>Fasilitas Peninsula Island<br></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -200,16 +199,16 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/services-1.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-activity"></i>
                 </div>
                 <a href="service-details.html" class="stretched-link">
-                  <h3>Nesciunt Mete</h3>
+                  <h3>Taman Terbuka Hijau yang Luas</h3>
                 </a>
-                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+                <p>Peninsula memiliki area taman hijau yang sangat luas dan terawat. Tempat ini ideal untuk bersantai, piknik, hingga menggelar berbagai acara outdoor seperti yoga, workshop, atau festival budaya. Suasananya tenang, rindang, dan dikelilingi pepohonan tropis yang menyegarkan.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -217,16 +216,16 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/services-2.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-broadcast"></i>
                 </div>
                 <a href="service-details.html" class="stretched-link">
-                  <h3>Eosle Commodi</h3>
+                  <h3>Jogging Track & Jalur Jalan Kaki</h3>
                 </a>
-                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                <p>Bagi pengunjung yang ingin berolahraga ringan, tersedia jalur jogging dan jalan kaki yang mengelilingi area taman hingga tepi pantai. Jalur ini bersih, datar, dan nyaman digunakan di pagi atau sore hari sambil menikmati angin pantai.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -234,16 +233,136 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="service-item">
               <div class="img">
-                <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/services-3.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
                   <i class="bi bi-easel"></i>
                 </div>
                 <a href="service-details.html" class="stretched-link">
-                  <h3>Ledo Markt</h3>
+                  <h3>Spot Viewpoint di Atas Tebing</h3>
                 </a>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                <p>Terdapat beberapa titik di atas tebing dengan pemandangan langsung ke Samudra Hindia. Spot ini sangat populer sebagai lokasi berfoto dan tempat menikmati matahari terbit maupun terbenam dengan latar pemandangan yang dramatis.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+       <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+              <div class="img">
+                <img src="style/assets/img/services-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Toilet dan Tempat Bilas</h3>
+                </a>
+                <p>Untuk kenyamanan pengunjung, Peninsula menyediakan toilet umum dan tempat bilas yang bersih. Fasilitas ini sangat membantu setelah aktivitas di luar ruangan atau setelah bermain di pantai.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div class="img">
+                <img src="style/assets/img/services-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Area Parkir Luas</h3>
+                </a>
+                <p>Area parkir yang luas dan aman tersedia bagi kendaraan pribadi, baik mobil maupun motor. Lokasinya dekat dengan pintu masuk utama, membuat akses ke area wisata menjadi mudah dan praktis.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div class="img">
+                <img src="style/assets/img/services-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Gazebo & Tempat Duduk</h3>
+                </a>
+                <p>Tersedia gazebo dan tempat duduk di sepanjang taman dan pinggir pantai. Lokasinya strategis dan nyaman, memberikan tempat istirahat yang ideal sambil menikmati pemandangan sekitar.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+      </div>
+
+       <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+              <div class="img">
+                <img src="style/assets/img/services-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Area Event & Pameran</h3>
+                </a>
+                <p>Peninsula sering menjadi lokasi berbagai event seperti festival, bazar, pameran, hingga pesta pernikahan. Area ini dilengkapi dengan fasilitas pendukung yang memadai dan pemandangan yang indah sebagai latar kegiatan.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div class="img">
+                <img src="style/assets/img/services-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Amphitheater Outdoor</h3>
+                </a>
+                <p>Fasilitas ini merupakan area pertunjukan terbuka yang sering digunakan untuk konser, pertunjukan seni, hingga event budaya. Dengan latar laut yang indah, amphitheater ini memberikan pengalaman menonton yang berbeda dan lebih dekat dengan alam.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div class="img">
+                <img src="style/assets/img/services-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Keamanan & Kebersihan Terjaga</h3>
+                </a>
+                <p>Petugas kebersihan dan keamanan selalu berjaga untuk memastikan semua fasilitas tetap rapi, bersih, dan aman untuk pengunjung.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -255,41 +374,41 @@
     </section><!-- /Services Section -->
 
     <!-- Clients Section -->
-    <section id="clients" class="clients section light-background">
+    {{-- <section id="clients" class="clients section light-background">
 
       <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="style/assets/img/clients/client-1.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="style/assets/img/clients/client-2.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="style/assets/img/clients/client-3.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="style/assets/img/clients/client-4.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <img src="style/assets/img/clients/client-5.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img src="style/assets/img/clients/client-6.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
         </div>
 
       </div>
 
-    </section><!-- /Clients Section -->
+    </section><!-- /Clients Section --> --}}
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -300,25 +419,25 @@
           <li class="nav-item col-3">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
               <i class="bi bi-binoculars"></i>
-              <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
+              <h4 class="d-none d-lg-block">Konser & Festival Musik</h4>
             </a>
           </li>
           <li class="nav-item col-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
               <i class="bi bi-box-seam"></i>
-              <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
+              <h4 class="d-none d-lg-block">Tari Kecak</h4>
             </a>
           </li>
           <li class="nav-item col-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
               <i class="bi bi-brightness-high"></i>
-              <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
+              <h4 class="d-none d-lg-block">Jogging</h4>
             </a>
           </li>
           <li class="nav-item col-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
               <i class="bi bi-command"></i>
-              <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
+              <h4 class="d-none d-lg-block">Bersepeda</h4>
             </a>
           </li>
         </ul><!-- End Tab Nav -->
@@ -328,26 +447,23 @@
           <div class="tab-pane fade active show" id="features-tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <h3>Nikmati serunya konser musik di alam terbuka dengan panorama laut yang memesona!</h3>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
+                 Peninsula Island adalah destinasi sempurna untuk menggelar konser dan festival musik yang tak terlupakan. Dikelilingi oleh birunya laut, hamparan rumput hijau, dan langit terbuka yang luas, setiap acara di sini terasa lebih hidup dan penuh energi. Dari konser akustik yang intim hingga festival musik yang megah, semua momen terasa spesial berkat nuansa alami yang memanjakan.
                 </p>
                 <ul>
                   <li><i class="bi bi-check2-all"></i>
-                    <spab>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</spab>
+                    <spab>Area luas untuk berbagai skala konser</spab>
                   </li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit</span>.</li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Mendukung semua genre musik dan komunitas</span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Atmosfer alami yang memperkaya suasana</span></li>
                 </ul>
                 <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
+                Menggelar konser di Peninsula Island bukan hanya soal musik, tapi menciptakan pengalaman tak terlupakan. Di sinilah musik bertemu dengan alam, menciptakan harmoni yang sempurna antara hiburan, keindahan, dan emosi.
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
+                <img src="style/assets/img/working-1.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -355,25 +471,23 @@
           <div class="tab-pane fade" id="features-tab-2">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
+                <h3>Rasakan magisnya budaya Bali di Peninsula Island lewat pertunjukan Tari Kecak yang ikonik.</h3>
                 <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
+                 Di tengah keindahan alam dan suasana sunset yang memukau, Tari Kecak disajikan dengan latar suara ombak dan cahaya api obor. Perpaduan alam dan budaya ini menjadikan setiap pertunjukan terasa magis dan mengesankan.
                 </p>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
+                 Menonton Tari Kecak di Peninsula bukan sekadar hiburan, tapi perjalanan budaya yang menggetarkan hati.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Disajikan di tengah panorama Peninsula Island</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Menggunakan elemen alami seperti api obor dan ombak
+                  Suara deburan ombak dan cahaya obor di sekeliling penari menambah kesan dramatis dan magis pada setiap pertunjukan.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span> Menjadi daya tarik utama acara budaya di Peninsula
+                  Tari Kecak sering dijadikan highlight di berbagai event, festival, atau pertunjukan khusus yang digelar di Peninsula Island.</span></li>                
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-2.jpg" alt="" class="img-fluid">
+                <img src="style/assets/img/working-2.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -381,24 +495,21 @@
           <div class="tab-pane fade" id="features-tab-3">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
+                <h3>Rasakan Kesegaran Alam Bali lewat Jogging Santai di Peninsula Island</h3>
                 <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
+                Peninsula Island adalah tempat yang sempurna untuk menjaga kebugaran sambil menikmati alam yang menenangkan. Dengan udara segar dan pemandangan yang menakjubkan, aktivitas ini menjadi cara ideal untuk menyatu dengan alam Bali.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span> Jalur jogging yang nyaman dan menyegarkan</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Pemandangan alami yang menakjubkan</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Cocok untuk semua tingkat kebugaran</span></li>
                 </ul>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
+                  Jogging di Peninsula Island bukan hanya tentang olahraga, tetapi juga kesempatan untuk menikmati keindahan alam Bali dengan cara yang sehat dan menyegarkan.
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-3.jpg" alt="" class="img-fluid">
+                <img src="style/assets/img/working-3.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -423,7 +534,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
+                <img src="style/assets/img/working-4.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -439,8 +550,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>CHECK OUR SERVICES</p>
+        <h2>Tips</h2>
+        <p>Berkunjung Ke Peninsula Island</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -451,8 +562,9 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-briefcase icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <h4 class="title"><a href="#" class="stretched-link">Waktu Terbaik Berkunjung</a></h4>
+                <p class="description">Waktu paling ideal untuk menikmati Peninsula Island adalah di pagi hari atau sore menjelang matahari terbenam. Pagi hari cocok untuk jogging santai sambil merasakan udara segar dan suasana yang masih tenang. Sedangkan sore hari menawarkan pemandangan sunset yang luar biasa indah, cocok untuk bersantai sambil menikmati panorama laut biru yang memukau.
+                </p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -461,8 +573,8 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-card-checklist icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                <h4 class="title"><a href="#" class="stretched-link">Pakaian yang Disarankan</a></h4>
+                <p class="description">Sebaiknya kenakan pakaian yang nyaman seperti kaos, celana pendek, atau pakaian olahraga ringan. Gunakan alas kaki anti slip, terutama jika kamu ingin menuju spot Water Blow, karena jalannya bisa menjadi licin akibat cipratan ombak. Membawa topi dan kacamata hitam juga disarankan untuk melindungi diri dari terik matahari di siang hari.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -471,8 +583,8 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-bar-chart icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                <h4 class="title"><a href="#" class="stretched-link">Bawa Kamera</a></h4>
+                <p class="description">Peninsula Island punya banyak sudut yang sangat instagramable, mulai dari taman hijau, patung-patung khas Bali, hingga tebing karang dengan latar belakang laut lepas. Pastikan membawa kamera atau smartphone berkamera dengan baterai penuh agar tidak melewatkan kesempatan mengabadikan momen-momen berharga selama di sana.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -491,8 +603,10 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-brightness-high icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Nemo Enim</a></h4>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                <h4 class="title"><a href="#" class="stretched-link">Tips Tambahan</a></h4>
+                <p class="description">Jangan lupa membawa air minum pribadi untuk menjaga tubuh tetap terhidrasi, terutama saat cuaca panas. Selalu ikuti rambu dan petunjuk keselamatan, khususnya di area tebing dan Water Blow. Terakhir, tetap jaga kebersihan dengan tidak membuang sampah sembarangan agar keindahan Peninsula Island tetap terjaga dan bisa dinikmati semua pengunjung.
+
+                </p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -506,11 +620,58 @@
               </div>
             </div>
           </div><!-- End Service Item -->
-
         </div>
 
-      </div>
+          <!-- Section Title -->
+        <div class="container section-title mt-4" data-aos="fade-up">
+          <p>Informasi Kunjungan</p>
+        </div><!-- End Section Title -->
 
+        <div class="service-item d-flex position-relative h-100 mb-4">
+          <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+          <div>
+            <h4 class="title">
+              <a href="#" class="stretched-link">Jam Operasional</a>
+            </h4>
+            <p class="description">
+              Peninsula Island terbuka untuk umum setiap hari dari <b>pukul 06.00 hingga 22.00 WITA.</b> Pengunjung bebas menikmati kawasan ini sepanjang jam operasional tersebut, mulai dari jalan santai, jogging, hingga bersantai menikmati pemandangan. Khusus untuk area <b>Waterblow</b>, biasanya jam operasionalnya lebih terbatas, yakni mulai <b>pukul 09.00 hingga 17.00 WITA</b>. Disarankan untuk datang di pagi atau sore hari agar bisa menikmati suasana yang lebih nyaman dan tidak terlalu panas. 
+            </p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="service-item d-flex position-relative h-100 mb-4">
+          <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+          <div>
+            <h4 class="title">
+              <a href="#" class="stretched-link">Tiket Masuk</a>
+            </h4>
+            <p class="description">
+              Tidak ada biaya tiket masuk untuk mengunjungi Peninsula Island. <br>
+              Peninsula Island sendiri dapat dikunjungi tanpa biaya tiket masuk. Namun, bagi pengunjung yang ingin menikmati Waterblow, yaitu atraksi yang terkenal dengan percikan air besar yang terjadi saat ombak menghantam tebing, terdapat biaya masuk. 
+              <b>Biaya masuk untuk mengunjungi Waterblow adalah sekitar Rp20.000 - Rp30.000 per orang.</b> 
+              Meskipun ada biaya tambahan untuk Waterblow, pengunjung tetap bisa menikmati banyak keindahan lainnya di sekitar Peninsula Island secara gratis.
+            </p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="service-item d-flex position-relative h-100 mb-4">
+          <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+          <div>
+            <h4 class="title mt-4">
+              <a href="#" class="stretched-link">Biaya Parkir</a>
+            </h4>
+            <p class="description">
+              Meskipun tiket masuk ke Peninsula Island gratis, pengunjung yang membawa kendaraan perlu memperhatikan biaya parkir.
+            </p>
+            <ul class="description">
+              <li>Untuk sepeda motor, tarif parkir yang berlaku adalah sekitar: Rp5.000 per jam.</li>
+              <li>Untuk mobil dikenakan biaya sekitar Rp10.000 per jam.</li>
+            </ul>
+          </div>
+        </div><!-- End Service Item -->
+
+            
+      </div>
     </section><!-- /Services 2 Section -->
 
     <!-- Testimonials Section -->
