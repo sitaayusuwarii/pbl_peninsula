@@ -101,8 +101,10 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3>Tentang Peninsula Island</h3>
             <img src="{{ asset('style/assets/img/peninsula/2.JPG')}}" class="img-fluid rounded-4 mb-4" alt="">
-            <p>Pulau Peninsula, surga kecil seluas 7,4 hektar, menjadi sebuah permata di bagian selatan Bali. Terletak di dalam area ITDC Nusa Dua yang bergengsi, Pulau Peninsula menawarkan perpaduan menakjubkan antara pemandangan laut biru, tebing karang yang menakjubkan, dan pantai berpasir putih yang masih alami.</p>
-            <p>Pulau Peninsula juga dikenal sebagai lokasi ikonik untuk berbagai acara penting, mulai dari festival musik, upacara budaya, hingga event olahraga internasional. Dengan areanya yang luas dan pemandangan terbuka ke arah Samudra Hindia, Peninsula Island menawarkan pengalaman wisata yang tak hanya santai, tapi juga berkelas.</p>
+            <p>Pulau Peninsula, surga kecil seluas 7,4 hektar, menjadi sebuah permata di bagian selatan Bali. Terletak di dalam area ITDC Nusa Dua yang bergengsi,
+                Pulau Peninsula menawarkan perpaduan menakjubkan antara pemandangan laut biru, tebing karang yang menakjubkan, dan pantai berpasir putih yang masih alami.</p>
+            <p>Pulau Peninsula juga dikenal sebagai lokasi ikonik untuk berbagai acara penting, mulai dari festival musik, upacara budaya, hingga event olahraga internasional. 
+                Dengan areanya yang luas dan pemandangan terbuka ke arah Samudra Hindia, Peninsula Island menawarkan pengalaman wisata yang tak hanya santai, tapi juga berkelas.</p>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
             <div class="content ps-0 ps-lg-5">
