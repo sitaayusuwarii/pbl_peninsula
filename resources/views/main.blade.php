@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,46 +32,7 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <h1 class="sitename">Peninsula Island</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Fasilitas</a></li>
-          <li><a href="#portfolio"></a></li>
-          <li><a href="#team">Activity & Event</a></li>
-          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="cta-btn" href="index.html#about">Get Started</a>
-
-    </div>
-  </header>
+    @include('partials.navbar')
 
   <main class="main">
 
@@ -203,12 +163,12 @@
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-activity"></i>
+                    <i class="bi bi-tree-fill"></i>               
                 </div>
-                <a href="service-details.html" class="stretched-link">
                   <h3>Taman Terbuka Hijau yang Luas</h3>
-                </a>
-                <p>Peninsula memiliki area taman hijau yang sangat luas dan terawat. Tempat ini ideal untuk bersantai, piknik, hingga menggelar berbagai acara outdoor seperti yoga, workshop, atau festival budaya. Suasananya tenang, rindang, dan dikelilingi pepohonan tropis yang menyegarkan.</p>
+                <p>Peninsula memiliki taman hijau yang luas dan terawat, cocok untuk bersantai, piknik, atau acara outdoor seperti yoga, workshop, atau festival budaya.  Suasananya tenang, rindang, dan dikelilingi pepohonan tropis yang menyegarkan.</p>
+                 <!-- Tombol Baca Selengkapnya -->
+               <a href="{{ url('/detail/taman') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -220,12 +180,12 @@
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-broadcast"></i>
+                  <i class="bi bi-person-walking"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
                   <h3>Jogging Track & Jalur Jalan Kaki</h3>
-                </a>
                 <p>Bagi pengunjung yang ingin berolahraga ringan, tersedia jalur jogging dan jalan kaki yang mengelilingi area taman hingga tepi pantai. Jalur ini bersih, datar, dan nyaman digunakan di pagi atau sore hari sambil menikmati angin pantai.</p>
+                  <!-- Tombol Baca Selengkapnya -->
+               <a href="{{ url('/detail/joging') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -237,12 +197,12 @@
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-easel"></i>
+                  <i class="bi bi-sunset-fill"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
                   <h3>Spot Viewpoint di Atas Tebing</h3>
-                </a>
                 <p>Terdapat beberapa titik di atas tebing dengan pemandangan langsung ke Samudra Hindia. Spot ini sangat populer sebagai lokasi berfoto dan tempat menikmati matahari terbit maupun terbenam dengan latar pemandangan yang dramatis.</p>
+                  <!-- Tombol Baca Selengkapnya -->
+               <a href="{{ url('/detail/spot') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -253,7 +213,7 @@
 
        <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-5">
+        <div class="row gy-5 mt-1">
 
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
@@ -262,12 +222,12 @@
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-activity"></i>
+                  <i class="bi bi-badge-wc-fill"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
                   <h3>Toilet dan Tempat Bilas</h3>
-                </a>
-                <p>Untuk kenyamanan pengunjung, Peninsula menyediakan toilet umum dan tempat bilas yang bersih. Fasilitas ini sangat membantu setelah aktivitas di luar ruangan atau setelah bermain di pantai.</p>
+                <p>Peninsula menyediakan toilet umum dan tempat bilas yang bersih. Fasilitas ini sangat berguna setelah aktivitas luar ruangan atau bermain di pantai, terutama untuk menjaga kebersihan dan kenyamanan selama berada di area wisata.</p>
+                    <!-- Tombol Baca Selengkapnya -->
+               <a href="{{ url('/detail/toilet') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -279,12 +239,12 @@
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-broadcast"></i>
+                  <i class="bi bi-p-circle-fill"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Area Parkir Luas</h3>
-                </a>
-                <p>Area parkir yang luas dan aman tersedia bagi kendaraan pribadi, baik mobil maupun motor. Lokasinya dekat dengan pintu masuk utama, membuat akses ke area wisata menjadi mudah dan praktis.</p>
+                  <h3>Area Parkir Luas</h3><br>
+                <p>Peninsula menyediakan area parkir yang luas dan aman untuk kendaraan pribadi, baik mobil maupun motor. Letaknya dekat pintu masuk utama sehingga memudahkan pengunjung mengakses area wisata dengan nyaman, cepat, dan praktis.</p>
+                    <!-- Tombol Baca Selengkapnya -->
+               <a href="{{ url('/detail/parkir') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -296,12 +256,12 @@
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-easel"></i>
+                  <i class="bi bi-person-wheelchair"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
                   <h3>Gazebo & Tempat Duduk</h3>
-                </a>
-                <p>Tersedia gazebo dan tempat duduk di sepanjang taman dan pinggir pantai. Lokasinya strategis dan nyaman, memberikan tempat istirahat yang ideal sambil menikmati pemandangan sekitar.</p>
+                <p>Peninsula menyediakan gazebo dan tempat duduk yang tersebar di sepanjang taman serta tepi pantai. Lokasinya strategis dan nyaman, cocok sebagai tempat istirahat sambil menikmati suasana dan keindahan alam sekitar.</p>
+                  <!-- Tombol Baca Selengkapnya -->
+               <a href="{{ url('/detail/gazebo') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -314,7 +274,7 @@
 
        <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-5">
+        <div class="row gy-5 mt-1">
 
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
@@ -323,12 +283,12 @@
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-activity"></i>
+                  <i class="bi bi-calendar-event-fill"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
                   <h3>Area Event & Pameran</h3>
-                </a>
-                <p>Peninsula sering menjadi lokasi berbagai event seperti festival, bazar, pameran, hingga pesta pernikahan. Area ini dilengkapi dengan fasilitas pendukung yang memadai dan pemandangan yang indah sebagai latar kegiatan.</p>
+                <p>Peninsula kerap menjadi lokasi berbagai event, mulai dari festival, bazar, pameran, hingga pesta pernikahan. Area ini dilengkapi fasilitas pendukung yang memadai dan pemandangan indah sebagai latar yang menambah kesan istimewa.</p>
+                    <!-- Tombol Baca Selengkapnya -->
+               <a href="{{ url('/detail/event') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -340,12 +300,12 @@
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-broadcast"></i>
+                  <i class="bi bi-megaphone-fill"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
                   <h3>Amphitheater Outdoor</h3>
-                </a>
-                <p>Fasilitas ini merupakan area pertunjukan terbuka yang sering digunakan untuk konser, pertunjukan seni, hingga event budaya. Dengan latar laut yang indah, amphitheater ini memberikan pengalaman menonton yang berbeda dan lebih dekat dengan alam.</p>
+                <p>Amphitheater di Peninsula adalah area pertunjukan terbuka yang sering dipakai untuk konser, seni, dan event budaya. Berlatarkan laut yang indah, tempat ini menyajikan pengalaman menonton yang unik dan dekat dengan alam.</p>
+                    <!-- Tombol Baca Selengkapnya -->
+               <a href="{{ url('/detail/outdor') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -357,12 +317,14 @@
               </div>
               <div class="details position-relative">
                 <div class="icon">
-                  <i class="bi bi-easel"></i>
+                  <i class="bi bi-shield-fill-exclamation"></i>
                 </div>
-                <a href="service-details.html" class="stretched-link">
+                {{-- <a href="service-details.html" class="stretched-link"> --}}
                   <h3>Keamanan & Kebersihan Terjaga</h3>
-                </a>
-                <p>Petugas kebersihan dan keamanan selalu berjaga untuk memastikan semua fasilitas tetap rapi, bersih, dan aman untuk pengunjung.</p>
+                {{-- </a> --}}
+                <p>Petugas kebersihan dan keamanan selalu berjaga di area Peninsula untuk memastikan seluruh fasilitas tetap bersih, rapi, dan aman. Kehadiran mereka membuat pengunjung merasa nyaman dan tenang selama menikmati waktu di sana.</p>
+                    <!-- Tombol Baca Selengkapnya -->
+               <a href="{{ url('/detail/keamanan') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -373,74 +335,71 @@
 
     </section><!-- /Services Section -->
 
-    <!-- Clients Section -->
-    {{-- <section id="clients" class="clients section light-background">
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="style/assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="style/assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="style/assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="style/assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="style/assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="style/assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Clients Section --> --}}
 
     <!-- Features Section -->
     <section id="features" class="features section">
 
       <div class="container">
+        <div class="container section-title" data-aos="fade-up" >
+          {{-- <h2>Services</h2> --}}
+          <p>Aktivitas & Event Peninsula Island<br></p>
+        </div>
+        
+     <!-- Wrapper tombol dan tab -->
+<div class="d-flex align-items-center">
+  <!-- Tombol kiri -->
+  <button class="btn btn-light me-2" id="scroll-left">
+    <i class="bi bi-chevron-left"></i>
+  </button>
 
-        <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
-          <li class="nav-item col-3">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-              <i class="bi bi-binoculars"></i>
-              <h4 class="d-none d-lg-block">Konser & Festival Musik</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-              <i class="bi bi-box-seam"></i>
-              <h4 class="d-none d-lg-block">Tari Kecak</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-              <i class="bi bi-brightness-high"></i>
-              <h4 class="d-none d-lg-block">Jogging</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
-              <i class="bi bi-command"></i>
-              <h4 class="d-none d-lg-block">Bersepeda</h4>
-            </a>
-          </li>
-        </ul><!-- End Tab Nav -->
+  <!-- Container scrollable -->
+  <div class="tab-scroll-container flex-grow-1" style="overflow-x: auto; white-space: nowrap; scroll-behavior: smooth;">
+    <ul class="nav nav-tabs d-flex flex-nowrap mb-0" style="min-width: max-content;">
+      <li class="nav-item text-center" style="flex: 0 0 250px;">
+        <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+          {{-- <i class="bi bi-binoculars"></i> --}}
+          <h4 class="d-none d-lg-block">Konser & Festival Musik</h4>
+        </a>
+      </li>
+      <li class="nav-item text-center" style="flex: 0 0 250px;">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+          {{-- <i class="bi bi-box-seam"></i> --}}
+          <h4 class="d-none d-lg-block">Tari Kecak</h4>
+        </a>
+      </li>
+      <li class="nav-item text-center" style="flex: 0 0 250px;">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+          {{-- <i class="bi bi-brightness-high"></i> --}}
+          <h4 class="d-none d-lg-block">Jogging</h4>
+        </a>
+      </li>
+      <li class="nav-item text-center" style="flex: 0 0 250px;">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+          {{-- <i class="bi bi-command"></i> --}}
+          <h4 class="d-none d-lg-block">Water Blow</h4>
+        </a>
+      </li>
+      <li class="nav-item text-center" style="flex: 0 0 250px;">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
+          {{-- <i class="bi bi-command"></i> --}}
+          <h4 class="d-none d-lg-block">Bersepeda</h4>
+        </a>
+      </li>
+      <li class="nav-item text-center" style="flex: 0 0 250px;">
+        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
+          {{-- <i class="bi bi-command"></i> --}}
+          <h4 class="d-none d-lg-block">Wall Climbing</h4>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Tombol kanan -->
+  <button class="btn btn-light ms-2" id="scroll-right">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+
 
         <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
 
@@ -539,6 +498,56 @@
             </div>
           </div><!-- End Tab Content Item -->
 
+          <div class="tab-pane fade" id="features-tab-5">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Panjat Tebing</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="style/assets/img/working-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+           <div class="tab-pane fade" id="features-tab-6">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Panjat Tebing</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="style/assets/img/working-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
         </div>
 
       </div>
@@ -560,10 +569,10 @@
 
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-briefcase icon flex-shrink-0"></i>
+              <i class="bi bi-calendar-check icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Waktu Terbaik Berkunjung</a></h4>
-                <p class="description">Waktu paling ideal untuk menikmati Peninsula Island adalah di pagi hari atau sore menjelang matahari terbenam. Pagi hari cocok untuk jogging santai sambil merasakan udara segar dan suasana yang masih tenang. Sedangkan sore hari menawarkan pemandangan sunset yang luar biasa indah, cocok untuk bersantai sambil menikmati panorama laut biru yang memukau.
+                <h4 class="title">Waktu Terbaik Berkunjung</h4>
+                <p class="description" style="align">Waktu paling ideal untuk menikmati Peninsula Island adalah di pagi hari atau sore menjelang matahari terbenam. Pagi hari cocok untuk jogging santai sambil merasakan udara segar dan suasana yang masih tenang. Sedangkan sore hari menawarkan pemandangan sunset yang luar biasa indah, cocok untuk bersantai sambil menikmati panorama laut biru yang memukau.
                 </p>
               </div>
             </div>
@@ -571,9 +580,9 @@
 
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-card-checklist icon flex-shrink-0"></i>
+              <i class="bi bi-person-standing-dress icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Pakaian yang Disarankan</a></h4>
+                <h4 class="title">Pakaian yang Disarankan</h4>
                 <p class="description">Sebaiknya kenakan pakaian yang nyaman seperti kaos, celana pendek, atau pakaian olahraga ringan. Gunakan alas kaki anti slip, terutama jika kamu ingin menuju spot Water Blow, karena jalannya bisa menjadi licin akibat cipratan ombak. Membawa topi dan kacamata hitam juga disarankan untuk melindungi diri dari terik matahari di siang hari.</p>
               </div>
             </div>
@@ -581,9 +590,9 @@
 
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-bar-chart icon flex-shrink-0"></i>
+              <i class="bi bi-camera icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Bawa Kamera</a></h4>
+                <h4 class="title">Bawa Kamera</h4>
                 <p class="description">Peninsula Island punya banyak sudut yang sangat instagramable, mulai dari taman hijau, patung-patung khas Bali, hingga tebing karang dengan latar belakang laut lepas. Pastikan membawa kamera atau smartphone berkamera dengan baterai penuh agar tidak melewatkan kesempatan mengabadikan momen-momen berharga selama di sana.</p>
               </div>
             </div>
@@ -593,7 +602,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-binoculars icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Magni Dolores</a></h4>
+                <h4 class="title">Magni Dolores</h4>
                 <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
               </div>
             </div>
@@ -603,7 +612,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-brightness-high icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Tips Tambahan</a></h4>
+                <h4 class="title">Tips Tambahan</h4>
                 <p class="description">Jangan lupa membawa air minum pribadi untuk menjaga tubuh tetap terhidrasi, terutama saat cuaca panas. Selalu ikuti rambu dan petunjuk keselamatan, khususnya di area tebing dan Water Blow. Terakhir, tetap jaga kebersihan dengan tidak membuang sampah sembarangan agar keindahan Peninsula Island tetap terjaga dan bisa dinikmati semua pengunjung.
 
                 </p>
@@ -615,7 +624,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Eiusmod Tempor</a></h4>
+                <h4 class="title">Eiusmod Tempor</h4>
                 <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
               </div>
             </div>
@@ -628,11 +637,9 @@
         </div><!-- End Section Title -->
 
         <div class="service-item d-flex position-relative h-100 mb-4">
-          <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+          <i class="bi bi-clock icon flex-shrink-0"></i>
           <div>
-            <h4 class="title">
-              <a href="#" class="stretched-link">Jam Operasional</a>
-            </h4>
+            <h4 class="title">Jam Operasional</h4>
             <p class="description">
               Peninsula Island terbuka untuk umum setiap hari dari <b>pukul 06.00 hingga 22.00 WITA.</b> Pengunjung bebas menikmati kawasan ini sepanjang jam operasional tersebut, mulai dari jalan santai, jogging, hingga bersantai menikmati pemandangan. Khusus untuk area <b>Waterblow</b>, biasanya jam operasionalnya lebih terbatas, yakni mulai <b>pukul 09.00 hingga 17.00 WITA</b>. Disarankan untuk datang di pagi atau sore hari agar bisa menikmati suasana yang lebih nyaman dan tidak terlalu panas. 
             </p>
@@ -640,10 +647,10 @@
         </div><!-- End Service Item -->
 
         <div class="service-item d-flex position-relative h-100 mb-4">
-          <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+          <i class="bi bi-ticket icon flex-shrink-0"></i>
           <div>
             <h4 class="title">
-              <a href="#" class="stretched-link">Tiket Masuk</a>
+              Tiket Masuk
             </h4>
             <p class="description">
               Tidak ada biaya tiket masuk untuk mengunjungi Peninsula Island. <br>
@@ -655,10 +662,10 @@
         </div><!-- End Service Item -->
 
         <div class="service-item d-flex position-relative h-100 mb-4">
-          <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+          <i class="bi bi-p-circle icon flex-shrink-0"></i>
           <div>
             <h4 class="title mt-4">
-              <a href="#" class="stretched-link">Biaya Parkir</a>
+              Biaya Parkir
             </h4>
             <p class="description">
               Meskipun tiket masuk ke Peninsula Island gratis, pengunjung yang membawa kendaraan perlu memperhatikan biaya parkir.
@@ -668,310 +675,20 @@
               <li>Untuk mobil dikenakan biaya sekitar Rp10.000 per jam.</li>
             </ul>
           </div>
-        </div><!-- End Service Item -->
-
-            
+        </div><!-- End Service Item -->      
       </div>
     </section><!-- /Services 2 Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section dark-background">
-
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>CHECK OUR PORTFOLIO</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
     <!-- Team Section -->
-    <section id="team" class="team section light-background">
+    {{-- <section id="team" class="team section light-background"> --}}
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      {{-- <div class="container section-title" data-aos="fade-up">
         <h2>Team</h2>
         <p>CHECK OUR TEAM</p>
-      </div><!-- End Section Title -->
+      </div><!-- End Section Title --> --}}
 
-      <div class="container">
+      {{-- <div class="container">
 
         <div class="row gy-5">
 
@@ -1027,15 +744,78 @@
 
       </div>
 
-    </section><!-- /Team Section -->
+    </section><!-- /Team Section --> --}}
+
+
+
+    <!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section dark-background">
+    <img src="{{ asset('style/assets/img/peninsula/1.JPG') }}" class="testimonials-bg" alt="">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+                {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                        "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "bullets",
+                        "clickable": true
+                    }
+                }
+            </script>
+
+            <div class="swiper-wrapper">
+                @foreach($testimonials as $testimonial)
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <!-- Ganti gambar dengan gambar default atau upload sesuai ulasan -->
+                        <img src="{{ asset('style/assets/img/testimonials/default.jpg') }}" class="testimonial-img" alt="">
+                        
+                        <!-- Nama dan Posisi -->
+                        <h3>{{ $testimonial->name }}</h3>
+                        {{-- <h4>{{ $testimonial->position ?? 'Position' }}</h4> <!-- Menampilkan posisi jika ada --> --}}
+
+                        <!-- Rating -->
+                        <div class="stars">
+                            @for ($i = 0; $i < $testimonial->rating; $i++)
+                                <i class="bi bi-star-fill"></i>
+                            @endfor
+                        </div>
+
+                        <!-- Pesan -->
+                        <p>
+                            <i class="bi bi-quote quote-icon-left"></i>
+                            <span>{{ $testimonial->message }}</span>
+                            <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                    </div>
+                </div> <!-- End testimonial item -->
+                @endforeach
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+</section><!-- End Testimonials Section -->
+
+
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="ulasan" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur</p>
+        {{-- <h2>Contact</h2> --}}
+        <p>Lokasi & Ulasan</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -1047,160 +827,67 @@
               <div class="col-lg-12">
                 <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
+                  <h3>Lokasi Peninsula Island</h3>
+                  {{-- <p>A108 Adam Street, New York, NY 535022</p>  --}}
+                  <br>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.824358785721!2d115.23601977374439!3d-8.802566190005058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd242d7ab709d33%3A0x39de1606c19ad392!2sNusa%20Gede!5e0!3m2!1sid!2sid!4v1746602053856!5m2!1sid!2sid" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div><!-- End Info Item -->
 
             </div>
           </div>
 
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
-              <div class="row gy-4">
+     <div class="col-lg-6">
+  <div class="card shadow-sm rounded p-4 bg-white border" data-aos="fade-up" data-aos-delay="500">
+    <form action="{{ route('submit.review') }}" method="POST">
+      @csrf
+      <div class="row gy-4">
+        <h3>Bagikan Pengalaman Anda!</h3>
 
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
+        <div class="col-md-6">
+          <input type="text" name="name" class="form-control" placeholder="Nama" required>
         </div>
 
-      </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" name="email" placeholder="Email" required>
+        </div>
 
+        <div class="col-md-12">
+          <label class="form-label">Rating:</label>
+          <div class="rating">
+            <input type="radio" name="rating" value="5" id="star5"><label for="star5">&#9733;</label>
+            <input type="radio" name="rating" value="4" id="star4"><label for="star4">&#9733;</label>
+            <input type="radio" name="rating" value="3" id="star3"><label for="star3">&#9733;</label>
+            <input type="radio" name="rating" value="2" id="star2"><label for="star2">&#9733;</label>
+            <input type="radio" name="rating" value="1" id="star1"><label for="star1">&#9733;</label>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <textarea class="form-control" name="message" rows="4" placeholder="Ketikkan ulasan" required></textarea>
+        </div>
+
+        <div class="col-md-12 text-center">
+          <button type="submit" class="btn btn-primary">Kirim Ulasan</button>
+        </div>
+      </div>
+    </form>
+    {{-- Notifikasi setelah kirim --}}
+  @if(session('success'))
+    <div class="alert alert-success mt-3">
+      {{ session('success') }}
+    </div>
+  @elseif(session('error'))
+    <div class="alert alert-danger mt-3">
+      {{ session('error') }}
+    </div>
+  @endif
+  </div>
+</div>
+</div>
+        </div>
+      </div>
     </section><!-- /Contact Section -->
 
   </main>
-
-  <footer id="footer" class="footer dark-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Dewi</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-          </form>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Dewi</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="{{ asset('style/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-  <script src="{{ asset('style/assets/vendor/php-email-form/validate.js')}}"></script>
-  <script src="{{ asset('style/assets/vendor/aos/aos.js')}}"></script>
-  <script src="{{ asset('style/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
-  <script src="{{ asset('style/assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
-  <script src="{{ asset('style/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
-  <script src="{{ asset('style/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>
-  <script src="{{ asset('style/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-
-  <!-- Main JS File -->
-  <script src="{{ asset('style/assets/js/main.js')}}"></script>
-
-</body>
-
-</html>
+    @include('partials.footer')

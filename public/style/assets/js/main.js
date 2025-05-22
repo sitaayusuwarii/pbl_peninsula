@@ -207,3 +207,63 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+function toggleAnswer(element) {
+  const answer = element.nextElementSibling;
+  const allAnswers = document.querySelectorAll('.answer');
+  allAnswers.forEach(a => {
+    if (a !== answer) a.style.display = 'none';
+  });
+  answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+}
+
+
+ const container = document.querySelector('.tab-scroll-container');
+  const scrollAmount = 250;
+
+  document.getElementById('scroll-left').addEventListener('click', () => {
+    container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+
+  document.getElementById('scroll-right').addEventListener('click', () => {
+    container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  });
+
+ 
+// CHATBOT
+function showResponse(option) {
+  const chatBox = document.getElementById("chat-box");
+
+  // Tambahkan pesan pengguna
+  const userMsg = document.createElement("div");
+  userMsg.className = "user-message";
+  userMsg.innerText = option.charAt(0).toUpperCase() + option.slice(1);
+  chatBox.appendChild(userMsg);
+
+  // Tambahkan respon bot
+  const botMsg = document.createElement("div");
+  botMsg.className = "bot-message";
+
+  switch (option) {
+    case "tiket":
+      botMsg.innerText = "Harga tiket masuk Peninsula Island adalah Rp50.000 untuk dewasa dan Rp25.000 untuk anak-anak. Tersedia juga paket keluarga!";
+      break;
+    case "lokasi":
+      botMsg.innerText = "Peninsula Island terletak di kawasan Nusa Dua, Bali. Lokasi mudah diakses dan dekat dengan berbagai hotel mewah.";
+      break;
+    case "info":
+      botMsg.innerText = "Peninsula Island buka setiap hari pukul 08.00 - 18.00 WITA. Tempat ini cocok untuk keluarga, pasangan, dan pecinta alam.";
+      break;
+    case "fasilitas":
+      botMsg.innerText = "Fasilitas yang tersedia: taman hijau, jalur jogging, gazebo, tempat duduk, spot foto, dan area bermain anak.";
+      break;
+    default:
+      botMsg.innerText = "Maaf, saya tidak mengerti permintaan Anda.";
+  }
+
+  chatBox.appendChild(botMsg);
+
+  // Scroll ke bawah otomatis
+  chatBox.scrollTop = chatBox.scrollHeight;
+}
+

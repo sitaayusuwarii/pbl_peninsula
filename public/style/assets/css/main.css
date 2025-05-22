@@ -218,6 +218,8 @@ h6 {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -561,7 +563,8 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background-color: rgb(126, 233, 126);
   font-size: 14px;
   position: relative;
 }
@@ -868,7 +871,7 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   position: relative;
 }
 
@@ -1280,6 +1283,28 @@ section,
   margin-bottom: 0;
 }
 
+.tab-scroll-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.tab-scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+.tabs-wrapper {
+  padding: 10px 0;
+}
+.nav-tabs .nav-item {
+  flex: 0 0 auto;
+}
+
+.tab-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+
 /*--------------------------------------------------------------
 # Services 2 Section
 --------------------------------------------------------------*/
@@ -1346,6 +1371,7 @@ section,
   object-fit: cover;
   z-index: 1;
 }
+
 
 .testimonials .container {
   position: relative;
@@ -1771,7 +1797,8 @@ section,
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  
+  /* color: color-mix(in srgb, var(--default-color), transparent 30%); */
 }
 
 /*--------------------------------------------------------------
@@ -1841,8 +1868,100 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Starter Section Section
+# rating
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+.rating {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  display: inline-flex;
+}
+.rating input[type="radio"] {
+  display: none;
+}
+.rating label {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+}
+.rating input[type="radio"]:checked ~ label {
+  color: #f5b301;
+}
+.rating label:hover,
+.rating label:hover ~ label {
+  color: #f5b301;
+}
+
+
+
+
+
+  
+/*--------------------------------------------------------------
+# btn baca selengkapnya
+--------------------------------------------------------------*/
+
+.btn-baca {
+  background-color: #FF4A00; /* biru Bootstrap */
+  color: white;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-baca:hover {
+  background-color: white;
+  color: #FF4A00;
+  border: 2px solid #FF4A00;
+}
+
+
+
+
+/* CHATBOT */
+.chat-container {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 15px;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bot-message {
+  background: #e0f7fa;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.user-message {
+  background: #c8e6c9;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: flex-end;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.options button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  background: #0288d1;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options button:hover {
+  background: #0277bd;
 }
