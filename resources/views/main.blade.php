@@ -602,30 +602,8 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-binoculars icon flex-shrink-0"></i>
               <div>
-                <h4 class="title">Magni Dolores</h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-brightness-high icon flex-shrink-0"></i>
-              <div>
                 <h4 class="title">Tips Tambahan</h4>
-                <p class="description">Jangan lupa membawa air minum pribadi untuk menjaga tubuh tetap terhidrasi, terutama saat cuaca panas. Selalu ikuti rambu dan petunjuk keselamatan, khususnya di area tebing dan Water Blow. Terakhir, tetap jaga kebersihan dengan tidak membuang sampah sembarangan agar keindahan Peninsula Island tetap terjaga dan bisa dinikmati semua pengunjung.
-
-                </p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
-              <div>
-                <h4 class="title">Eiusmod Tempor</h4>
-                <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                <p class="description">Jangan lupa membawa air minum pribadi untuk menjaga tubuh tetap terhidrasi, terutama saat cuaca panas. Selalu ikuti rambu dan petunjuk keselamatan, khususnya di area tebing dan Water Blow. Terakhir, tetap jaga kebersihan dengan tidak membuang sampah sembarangan agar keindahan Peninsula Island tetap terjaga dan bisa dinikmati semua pengunjung.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
