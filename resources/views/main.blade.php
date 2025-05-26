@@ -385,12 +385,6 @@
           <h4 class="d-none d-lg-block">Bersepeda</h4>
         </a>
       </li>
-      <li class="nav-item text-center" style="flex: 0 0 250px;">
-        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
-          {{-- <i class="bi bi-command"></i> --}}
-          <h4 class="d-none d-lg-block">Wall Climbing</h4>
-        </a>
-      </li>
     </ul>
   </div>
 
@@ -476,20 +470,18 @@
           <div class="tab-pane fade" id="features-tab-4">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
+                <h3>Nikmati Keindahan Alam Bali lewat Sensasi Water Blow di Peninsula Island</h3>
                 <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
+                  Water Blow Peninsula Island adalah daya tarik alam yang menakjubkan, di mana ombak laut bertabrakan dengan karang besar, menciptakan semburan air yang spektakuler dan menyegarkan. Tempat ini sempurna untuk menikmati keindahan alam Bali sekaligus merasakan energi laut yang kuat dan menyegarkan.
                 </p>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
+                  Mengunjungi Water Blow bukan hanya soal melihat semburan air yang memukau, tapi juga kesempatan untuk menyatu dengan alam Bali yang penuh kekuatan dan keindahan. Sensasi segarnya semburan air laut dan suara ombak yang menghantam karang akan membuat pengalaman Anda di Peninsula Island semakin tak terlupakan.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Pemandangan ombak besar yang dramatis
+                  </span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Suasana alami yang segar dan menyenangkan.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Spot foto yang instagramable dan unik</span></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -501,20 +493,17 @@
           <div class="tab-pane fade" id="features-tab-5">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Panjat Tebing</h3>
+                <h3>Rasakan Kesegaran Alam Bali lewat Bersepeda Santai di Peninsula Island</h3>
                 <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
+                 Bersepeda di Peninsula Island adalah cara sempurna untuk menjaga kebugaran sekaligus menikmati keindahan alam Bali yang asri. Dengan jalur yang ramah pengendara sepeda dan udara segar yang menyejukkan, aktivitas ini cocok untuk semua kalangan, mulai dari pemula hingga yang sudah berpengalaman.
                 </p>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
+                 Bersepeda di Peninsula Island bukan hanya olahraga, tapi juga kesempatan menikmati udara segar dan panorama alam Bali yang menyejukkan sambil menghirup energi positif dari lingkungan sekitar. Jadi, ayo gowes dan nikmati keindahan Bali dengan cara yang menyenangkan dan sehat!
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Jalur bersepeda yang aman dan nyaman</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Pemandangan hijau dan laut yang menenangkan.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Cocok untuk seluruh keluarga dan komunitas</span></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -523,30 +512,7 @@
             </div>
           </div><!-- End Tab Content Item -->
 
-           <div class="tab-pane fade" id="features-tab-6">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Panjat Tebing</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="style/assets/img/working-4.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
+          
 
         </div>
 
