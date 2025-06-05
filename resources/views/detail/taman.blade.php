@@ -34,7 +34,7 @@
   @include('partials.navbar')
   <main class="main">
      <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade" style="background-image: url({{ asset('style/assets/img/portfolio/books-1.jpg')}});">
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url({{ asset('style/assets/img/detail/bunga2.jpg')}});">
       <div class="container position-relative">
         <h1>Taman Terbuka Hijau yang Luas</h1>
         <p>Nikmati udara sejuk dan hijaunya alam terbuka yang menenangkan.</p>
@@ -75,19 +75,19 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="{{ asset('style/assets/img/portfolio/app-1.jpg')}}" alt="">
+                  <img src="{{ asset('style/assets/img/detail/bunga1.jpg')}}" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="{{ asset('style/assets/img/portfolio/product-1.jpg')}}" alt="">
+                  <img src="{{ asset('style/assets/img/detail/hijau.jpg')}}" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="{{ asset('style/assets/img/portfolio/branding-1.jpg')}}" alt="">
+                  <img src="{{ asset('style/assets/img/detail/cakrahijau.jpeg')}}" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="{{ asset('style/assets/img/portfolio/books-1.jpg')}}" alt="">
+                  <img src="{{ asset('style/assets/img/detail/tongmerah.jpg')}}" alt="">
                 </div>
 
               </div>

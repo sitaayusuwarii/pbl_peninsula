@@ -34,7 +34,7 @@
   @include('partials.navbar')
   <main class="main">
      <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade" style="background-image: url({{ asset('style/assets/img/portfolio/books-1.jpg')}});">
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url({{ asset('style/assets/img/detail/toilet.jpg')}});">
       <div class="container position-relative">
         <h1>Toilet dan Tempat Bilas</h1>
         <p>Nikmati Momen Santaimu dengan Fasilitas Bilas Peninsula Island</p>
@@ -75,15 +75,15 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="{{ asset('style/assets/img/portfolio/app-1.jpg')}}" alt="">
+                  <img src="{{ asset('style/assets/img/detail/wcdepan.jpg')}}" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="{{ asset('style/assets/img/portfolio/product-1.jpg')}}" alt="">
+                  <img src="{{ asset('style/assets/img/detail/toilet.jpg')}}" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="{{ asset('style/assets/img/portfolio/branding-1.jpg')}}" alt="">
+                  <img src="{{ asset('style/assets/img/detail/wc2.jpg')}}" alt="">
                 </div>
 
                 <div class="swiper-slide">

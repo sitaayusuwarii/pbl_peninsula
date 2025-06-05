@@ -39,14 +39,14 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="{{ asset('style/assets/img/peninsula/1.JPG')}}" alt="" data-aos="fade-in">
+      <img src="{{ asset('style/assets/img/peninsulackr/patung1.jpg')}}" alt="" data-aos="fade-in">
 
       <div class="container d-flex flex-column align-items-center">
         <h2 data-aos="fade-up" data-aos-delay="100">Jelajahi Keindahan Peninsula Island</h2>
         <p data-aos="fade-up" data-aos-delay="200">Sambut petualangan baru di Peninsula Island dengan keindahan alam yang menawan.</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
           {{-- <a href="#about" class="btn-get-started">Get Started</a> --}}
-          <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+           <a href="https://drive.google.com/file/d/1hFnEHj28urhnHnQh3DdDgxwLP11OOeYo/preview" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
         </div>
       </div>
 
@@ -55,12 +55,12 @@
     <!-- About Section -->
     <section id="about" class="about section">
 
-      <div class="container">
+       <div class="container">
 
         <div class="row gy-4">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3>Tentang Peninsula Island</h3>
-            <img src="{{ asset('style/assets/img/peninsula/2.JPG')}}" class="img-fluid rounded-4 mb-4" alt="">
+            <img src="{{ asset('style/assets/img/peninsulackr/foto2.JPG')}}" class="img-fluid rounded-4 mb-4" alt="">
             <p>Pulau Peninsula, surga kecil seluas 7,4 hektar, menjadi sebuah permata di bagian selatan Bali. Terletak di dalam area ITDC Nusa Dua yang bergengsi, Pulau Peninsula menawarkan perpaduan menakjubkan antara pemandangan laut biru, tebing karang yang menakjubkan, dan pantai berpasir putih yang masih alami.</p>
             <p>Pulau Peninsula juga dikenal sebagai lokasi ikonik untuk berbagai acara penting, mulai dari festival musik, upacara budaya, hingga event olahraga internasional. Dengan areanya yang luas dan pemandangan terbuka ke arah Samudra Hindia, Peninsula Island menawarkan pengalaman wisata yang tak hanya santai, tapi juga berkelas.</p>
           </div>
@@ -79,8 +79,8 @@
               </p>
 
               <div class="position-relative mt-4">
-                <img src="{{ asset('style/assets/img/peninsula/3.JPG')}}" class="img-fluid rounded-4" alt="">
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+                <img src="{{ asset('style/assets/img/detail/bunga1.jpg')}}" class="img-fluid rounded-4" alt="">
+                {{-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> --}}
               </div>
             </div>
           </div>
@@ -90,65 +90,12 @@
 
     </section><!-- /About Section -->
 
-    <!-- Stats Section -->
-    {{-- <section id="stats" class="stats section light-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Happy Clients</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Projects</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-headset color-green flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Hours Of Support</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-people color-pink flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Hard Workers</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section --> --}}
-
     <!-- Services Section -->
     <section id="services" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
+        <h2></h2>
         <p>Fasilitas Peninsula Island<br></p>
       </div><!-- End Section Title -->
 
@@ -159,7 +106,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
-                <img src="style/assets/img/services-1.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/peninsulackr/luas.JPG" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -176,7 +123,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="style/assets/img/services-2.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/peninsulackr/joging.JPG" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -193,7 +140,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="service-item">
               <div class="img">
-                <img src="style/assets/img/services-3.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/peninsulackr/viewtebing.JPG" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -218,7 +165,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
-                <img src="style/assets/img/services-1.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/peninsulackr/toilet.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -235,7 +182,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="style/assets/img/services-2.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/peninsulackr/parkir.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -252,7 +199,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="service-item">
               <div class="img">
-                <img src="style/assets/img/services-3.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/peninsulackr/duduk.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -279,7 +226,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
-                <img src="style/assets/img/services-1.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/peninsulackr/pameran.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -296,7 +243,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
-                <img src="style/assets/img/services-2.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/peninsulackr/kecak.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -313,7 +260,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="service-item">
               <div class="img">
-                <img src="style/assets/img/services-3.jpg" class="img-fluid" alt="">
+                <img src="style/assets/img/peninsulackr/petugaskebersihan.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -416,7 +363,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="style/assets/img/working-1.jpg" alt="" class="img-fluid">
+                <img src="style/assets/img/peninsulackr/konser.jpeg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -440,7 +387,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="style/assets/img/working-2.jpg" alt="" class="img-fluid">
+                <img src="style/assets/img/peninsulackr/kecak.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -462,7 +409,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="style/assets/img/working-3.jpg" alt="" class="img-fluid">
+                <img src="style/assets/img/peninsulackr/joging.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -694,7 +641,7 @@
 
     <!-- Testimonials Section -->
 <section id="testimonials" class="testimonials section dark-background">
-    <img src="{{ asset('style/assets/img/peninsula/1.JPG') }}" class="testimonials-bg" alt="">
+    <img src="{{ asset('style/assets/img/detail/bunga1.jpg') }}" class="testimonials-bg" alt="">
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
