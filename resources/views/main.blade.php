@@ -61,12 +61,12 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3>Tentang Peninsula Island</h3>
             <img src="{{ asset('style/assets/img/peninsulackr/foto2.JPG')}}" class="img-fluid rounded-4 mb-4" alt="">
-            <p>Pulau Peninsula, surga kecil seluas 7,4 hektar, menjadi sebuah permata di bagian selatan Bali. Terletak di dalam area ITDC Nusa Dua yang bergengsi, Pulau Peninsula menawarkan perpaduan menakjubkan antara pemandangan laut biru, tebing karang yang menakjubkan, dan pantai berpasir putih yang masih alami.</p>
-            <p>Pulau Peninsula juga dikenal sebagai lokasi ikonik untuk berbagai acara penting, mulai dari festival musik, upacara budaya, hingga event olahraga internasional. Dengan areanya yang luas dan pemandangan terbuka ke arah Samudra Hindia, Peninsula Island menawarkan pengalaman wisata yang tak hanya santai, tapi juga berkelas.</p>
+            <p style="text-align: justify;">Pulau Peninsula, surga kecil seluas 7,4 hektar, menjadi sebuah permata di bagian selatan Bali. Terletak di dalam area ITDC Nusa Dua yang bergengsi, Pulau Peninsula menawarkan perpaduan menakjubkan antara pemandangan laut biru, tebing karang yang menakjubkan, dan pantai berpasir putih yang masih alami.</p>
+            <p style="text-align: justify;">Pulau Peninsula juga dikenal sebagai lokasi ikonik untuk berbagai acara penting, mulai dari festival musik, upacara budaya, hingga event olahraga internasional. Dengan areanya yang luas dan pemandangan terbuka ke arah Samudra Hindia, Peninsula Island menawarkan pengalaman wisata yang tak hanya santai, tapi juga berkelas.</p>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
             <div class="content ps-0 ps-lg-5">
-              <p class="fst-italic">
+              <p style="text-align: justify;">
                 Peninsula Island adalah destinasi eksotis dengan panorama alam yang memukau, pantai berpasir putih, dan perairan biru jernih. Nikmati pengalaman liburan yang tak terlupakan dengan berbagai aktivitas seru.
               </p>
               <ul>
@@ -74,13 +74,13 @@
                 <li><i class="bi bi-check-circle-fill"></i> <span> Spot foto instagramable dengan latar belakang alam yang memukau.</span></li>
                 <li><i class="bi bi-check-circle-fill"></i> <span>Suasana yang tenang sangat cocok untuk relaksasi dan liburan santai.</span></li>
               </ul>
-              <p>
+              <p style="text-align: justify;">
                 Peninsula Island bukan hanya menawarkan keindahan visual, tetapi juga ketenangan yang sulit ditemukan di tempat lain. Setiap langkah di pulau kecil ini adalah undangan untuk menikmati Bali dalam versi yang lebih damai, asri, dan penuh keajaiban.
               </p>
 
               <div class="position-relative mt-4">
                 <img src="{{ asset('style/assets/img/detail/bunga1.jpg')}}" class="img-fluid rounded-4" alt="">
-                {{-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> --}}
+                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@
                     <i class="bi bi-tree-fill"></i>               
                 </div>
                   <h3>Taman Terbuka Hijau yang Luas</h3>
-                <p>Peninsula memiliki taman hijau yang luas dan terawat, cocok untuk bersantai, piknik, atau acara outdoor seperti yoga, workshop, atau festival budaya.  Suasananya tenang, rindang, dan dikelilingi pepohonan tropis yang menyegarkan.</p>
+                <p style="text-align: justify;">Peninsula memiliki taman hijau yang luas dan terawat, cocok untuk bersantai, piknik, atau acara outdoor seperti yoga, workshop, atau festival budaya.  Suasananya tenang, rindang, dan dikelilingi pepohonan tropis yang menyegarkan.</p>
                  <!-- Tombol Baca Selengkapnya -->
                <a href="{{ url('/detail/taman') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
@@ -130,7 +130,7 @@
                   <i class="bi bi-person-walking"></i>
                 </div>
                   <h3>Jogging Track & Jalur Jalan Kaki</h3>
-                <p>Bagi pengunjung yang ingin berolahraga ringan, tersedia jalur jogging dan jalan kaki yang mengelilingi area taman hingga tepi pantai. Jalur ini bersih, datar, dan nyaman digunakan di pagi atau sore hari sambil menikmati angin pantai.</p>
+                <p style="text-align: justify;">Bagi pengunjung yang ingin berolahraga ringan, tersedia jalur jogging dan jalan kaki yang mengelilingi area taman hingga tepi pantai. Jalur ini bersih, datar, dan nyaman digunakan di pagi atau sore hari sambil menikmati angin pantai.</p>
                   <!-- Tombol Baca Selengkapnya -->
                <a href="{{ url('/detail/joging') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
@@ -147,7 +147,7 @@
                   <i class="bi bi-sunset-fill"></i>
                 </div>
                   <h3>Spot Viewpoint di Atas Tebing</h3>
-                <p>Terdapat beberapa titik di atas tebing dengan pemandangan langsung ke Samudra Hindia. Spot ini sangat populer sebagai lokasi berfoto dan tempat menikmati matahari terbit maupun terbenam dengan latar pemandangan yang dramatis.</p>
+                <p style="text-align: justify;">Terdapat beberapa titik di atas tebing dengan pemandangan langsung ke Samudra Hindia. Spot ini sangat populer sebagai lokasi berfoto dan tempat menikmati matahari terbit maupun terbenam dengan latar pemandangan yang dramatis.</p>
                   <!-- Tombol Baca Selengkapnya -->
                <a href="{{ url('/detail/spot') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
@@ -172,7 +172,7 @@
                   <i class="bi bi-badge-wc-fill"></i>
                 </div>
                   <h3>Toilet dan Tempat Bilas</h3>
-                <p>Peninsula menyediakan toilet umum dan tempat bilas yang bersih. Fasilitas ini sangat berguna setelah aktivitas luar ruangan atau bermain di pantai, terutama untuk menjaga kebersihan dan kenyamanan selama berada di area wisata.</p>
+                <p style="text-align: justify;">Peninsula menyediakan toilet umum dan tempat bilas yang bersih. Fasilitas ini sangat berguna setelah aktivitas luar ruangan atau bermain di pantai, terutama untuk menjaga kebersihan dan kenyamanan selama berada di area wisata.</p>
                     <!-- Tombol Baca Selengkapnya -->
                <a href="{{ url('/detail/toilet') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
@@ -189,7 +189,7 @@
                   <i class="bi bi-p-circle-fill"></i>
                 </div>
                   <h3>Area Parkir Luas</h3><br>
-                <p>Peninsula menyediakan area parkir yang luas dan aman untuk kendaraan pribadi, baik mobil maupun motor. Letaknya dekat pintu masuk utama sehingga memudahkan pengunjung mengakses area wisata dengan nyaman, cepat, dan praktis.</p>
+                <p style="text-align: justify;">Peninsula menyediakan area parkir yang luas dan aman untuk kendaraan pribadi, baik mobil maupun motor. Letaknya dekat pintu masuk utama sehingga memudahkan pengunjung mengakses area wisata dengan nyaman, cepat, dan praktis.</p>
                     <!-- Tombol Baca Selengkapnya -->
                <a href="{{ url('/detail/parkir') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
@@ -206,7 +206,7 @@
                   <i class="bi bi-person-wheelchair"></i>
                 </div>
                   <h3>Gazebo & Tempat Duduk</h3>
-                <p>Peninsula menyediakan gazebo dan tempat duduk yang tersebar di sepanjang taman serta tepi pantai. Lokasinya strategis dan nyaman, cocok sebagai tempat istirahat sambil menikmati suasana dan keindahan alam sekitar.</p>
+                <p style="text-align: justify;">Peninsula menyediakan gazebo dan tempat duduk yang tersebar di sepanjang taman serta tepi pantai. Lokasinya strategis dan nyaman, cocok sebagai tempat istirahat sambil menikmati suasana dan keindahan alam sekitar.</p>
                   <!-- Tombol Baca Selengkapnya -->
                <a href="{{ url('/detail/gazebo') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
@@ -233,7 +233,7 @@
                   <i class="bi bi-calendar-event-fill"></i>
                 </div>
                   <h3>Area Event & Pameran</h3>
-                <p>Peninsula kerap menjadi lokasi berbagai event, mulai dari festival, bazar, pameran, hingga pesta pernikahan. Area ini dilengkapi fasilitas pendukung yang memadai dan pemandangan indah sebagai latar yang menambah kesan istimewa.</p>
+                <p style="text-align: justify;">Peninsula kerap menjadi lokasi berbagai event, mulai dari festival, bazar, pameran, hingga pesta pernikahan. Area ini dilengkapi fasilitas pendukung yang memadai dan pemandangan indah sebagai latar yang menambah kesan istimewa.</p>
                     <!-- Tombol Baca Selengkapnya -->
                <a href="{{ url('/detail/event') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
@@ -250,7 +250,7 @@
                   <i class="bi bi-megaphone-fill"></i>
                 </div>
                   <h3>Amphitheater Outdoor</h3>
-                <p>Amphitheater di Peninsula adalah area pertunjukan terbuka yang sering dipakai untuk konser, seni, dan event budaya. Berlatarkan laut yang indah, tempat ini menyajikan pengalaman menonton yang unik dan dekat dengan alam.</p>
+                <p style="text-align: justify;">Amphitheater di Peninsula adalah area pertunjukan terbuka yang sering dipakai untuk konser, seni, dan event budaya. Berlatarkan laut yang indah, tempat ini menyajikan pengalaman menonton yang unik dan dekat dengan alam.</p>
                     <!-- Tombol Baca Selengkapnya -->
                <a href="{{ url('/detail/outdor') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
@@ -269,7 +269,7 @@
                 {{-- <a href="service-details.html" class="stretched-link"> --}}
                   <h3>Keamanan & Kebersihan Terjaga</h3>
                 {{-- </a> --}}
-                <p>Petugas kebersihan dan keamanan selalu berjaga di area Peninsula untuk memastikan seluruh fasilitas tetap bersih, rapi, dan aman. Kehadiran mereka membuat pengunjung merasa nyaman dan tenang selama menikmati waktu di sana.</p>
+                <p style="text-align: justify;">Petugas kebersihan dan keamanan selalu berjaga di area Peninsula untuk memastikan seluruh fasilitas tetap bersih, rapi, dan aman. Kehadiran mereka membuat pengunjung merasa nyaman dan tenang selama menikmati waktu di sana.</p>
                     <!-- Tombol Baca Selengkapnya -->
                <a href="{{ url('/detail/keamanan') }}" class="btn btn-baca mt-2">Baca Selengkapnya</a>
               </div>
@@ -348,7 +348,7 @@
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>Nikmati serunya konser musik di alam terbuka dengan panorama laut yang memesona!</h3>
-                <p class="fst-italic">
+                <p class="fst-italic" style="text-align: justify;">
                  Peninsula Island adalah destinasi sempurna untuk menggelar konser dan festival musik yang tak terlupakan. Dikelilingi oleh birunya laut, hamparan rumput hijau, dan langit terbuka yang luas, setiap acara di sini terasa lebih hidup dan penuh energi. Dari konser akustik yang intim hingga festival musik yang megah, semua momen terasa spesial berkat nuansa alami yang memanjakan.
                 </p>
                 <ul>
@@ -358,7 +358,7 @@
                   <li><i class="bi bi-check2-all"></i> <span>Mendukung semua genre musik dan komunitas</span>.</li>
                   <li><i class="bi bi-check2-all"></i> <span>Atmosfer alami yang memperkaya suasana</span></li>
                 </ul>
-                <p>
+                <p style="text-align: justify;">
                 Menggelar konser di Peninsula Island bukan hanya soal musik, tapi menciptakan pengalaman tak terlupakan. Di sinilah musik bertemu dengan alam, menciptakan harmoni yang sempurna antara hiburan, keindahan, dan emosi.
                 </p>
               </div>
@@ -372,7 +372,7 @@
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>Rasakan magisnya budaya Bali di Peninsula Island lewat pertunjukan Tari Kecak yang ikonik.</h3>
-                <p>
+                <p style="text-align: justify;">
                  Di tengah keindahan alam dan suasana sunset yang memukau, Tari Kecak disajikan dengan latar suara ombak dan cahaya api obor. Perpaduan alam dan budaya ini menjadikan setiap pertunjukan terasa magis dan mengesankan.
                 </p>
                 <p class="fst-italic">
@@ -396,7 +396,7 @@
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>Rasakan Kesegaran Alam Bali lewat Jogging Santai di Peninsula Island</h3>
-                <p>
+                <p style="text-align: justify;">
                 Peninsula Island adalah tempat yang sempurna untuk menjaga kebugaran sambil menikmati alam yang menenangkan. Dengan udara segar dan pemandangan yang menakjubkan, aktivitas ini menjadi cara ideal untuk menyatu dengan alam Bali.
                 </p>
                 <ul>
@@ -404,7 +404,7 @@
                   <li><i class="bi bi-check2-all"></i> <span>Pemandangan alami yang menakjubkan</span></li>
                   <li><i class="bi bi-check2-all"></i> <span>Cocok untuk semua tingkat kebugaran</span></li>
                 </ul>
-                <p class="fst-italic">
+                <p class="fst-italic" style="text-align: justify;">
                   Jogging di Peninsula Island bukan hanya tentang olahraga, tetapi juga kesempatan untuk menikmati keindahan alam Bali dengan cara yang sehat dan menyegarkan.
                 </p>
               </div>
@@ -418,10 +418,10 @@
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>Nikmati Keindahan Alam Bali lewat Sensasi Water Blow di Peninsula Island</h3>
-                <p>
+                <p style="text-align: justify;">
                   Water Blow Peninsula Island adalah daya tarik alam yang menakjubkan, di mana ombak laut bertabrakan dengan karang besar, menciptakan semburan air yang spektakuler dan menyegarkan. Tempat ini sempurna untuk menikmati keindahan alam Bali sekaligus merasakan energi laut yang kuat dan menyegarkan.
                 </p>
-                <p class="fst-italic">
+                <p class="fst-italic" style="text-align: justify;">
                   Mengunjungi Water Blow bukan hanya soal melihat semburan air yang memukau, tapi juga kesempatan untuk menyatu dengan alam Bali yang penuh kekuatan dan keindahan. Sensasi segarnya semburan air laut dan suara ombak yang menghantam karang akan membuat pengalaman Anda di Peninsula Island semakin tak terlupakan.
                 </p>
                 <ul>
@@ -441,10 +441,10 @@
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>Rasakan Kesegaran Alam Bali lewat Bersepeda Santai di Peninsula Island</h3>
-                <p>
+                <p style="text-align: justify;">
                  Bersepeda di Peninsula Island adalah cara sempurna untuk menjaga kebugaran sekaligus menikmati keindahan alam Bali yang asri. Dengan jalur yang ramah pengendara sepeda dan udara segar yang menyejukkan, aktivitas ini cocok untuk semua kalangan, mulai dari pemula hingga yang sudah berpengalaman.
                 </p>
-                <p class="fst-italic">
+                <p class="fst-italic" style="text-align: justify;">
                  Bersepeda di Peninsula Island bukan hanya olahraga, tapi juga kesempatan menikmati udara segar dan panorama alam Bali yang menyejukkan sambil menghirup energi positif dari lingkungan sekitar. Jadi, ayo gowes dan nikmati keindahan Bali dengan cara yang menyenangkan dan sehat!
                 </p>
                 <ul>
@@ -485,7 +485,7 @@
               <i class="bi bi-calendar-check icon flex-shrink-0"></i>
               <div>
                 <h4 class="title">Waktu Terbaik Berkunjung</h4>
-                <p class="description" style="align">Waktu paling ideal untuk menikmati Peninsula Island adalah di pagi hari atau sore menjelang matahari terbenam. Pagi hari cocok untuk jogging santai sambil merasakan udara segar dan suasana yang masih tenang. Sedangkan sore hari menawarkan pemandangan sunset yang luar biasa indah, cocok untuk bersantai sambil menikmati panorama laut biru yang memukau.
+                <p class="description" style="text-align: justify;">Waktu paling ideal untuk menikmati Peninsula Island adalah di pagi hari atau sore menjelang matahari terbenam. Pagi hari cocok untuk jogging santai sambil merasakan udara segar dan suasana yang masih tenang. Sedangkan sore hari menawarkan pemandangan sunset yang luar biasa indah, cocok untuk bersantai sambil menikmati panorama laut biru yang memukau.
                 </p>
               </div>
             </div>
@@ -496,7 +496,7 @@
               <i class="bi bi-person-standing-dress icon flex-shrink-0"></i>
               <div>
                 <h4 class="title">Pakaian yang Disarankan</h4>
-                <p class="description">Sebaiknya kenakan pakaian yang nyaman seperti kaos, celana pendek, atau pakaian olahraga ringan. Gunakan alas kaki anti slip, terutama jika kamu ingin menuju spot Water Blow, karena jalannya bisa menjadi licin akibat cipratan ombak. Membawa topi dan kacamata hitam juga disarankan untuk melindungi diri dari terik matahari di siang hari.</p>
+                <p class="description" style="text-align: justify;">Sebaiknya kenakan pakaian yang nyaman seperti kaos, celana pendek, atau pakaian olahraga ringan. Gunakan alas kaki anti slip, terutama jika kamu ingin menuju spot Water Blow, karena jalannya bisa menjadi licin akibat cipratan ombak. Membawa topi dan kacamata hitam juga disarankan untuk melindungi diri dari terik matahari di siang hari.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -506,7 +506,7 @@
               <i class="bi bi-camera icon flex-shrink-0"></i>
               <div>
                 <h4 class="title">Bawa Kamera</h4>
-                <p class="description">Peninsula Island punya banyak sudut yang sangat instagramable, mulai dari taman hijau, patung-patung khas Bali, hingga tebing karang dengan latar belakang laut lepas. Pastikan membawa kamera atau smartphone berkamera dengan baterai penuh agar tidak melewatkan kesempatan mengabadikan momen-momen berharga selama di sana.</p>
+                <p class="description" style="text-align: justify;">Peninsula Island punya banyak sudut yang sangat instagramable, mulai dari taman hijau, patung-patung khas Bali, hingga tebing karang dengan latar belakang laut lepas. Pastikan membawa kamera atau smartphone berkamera dengan baterai penuh agar tidak melewatkan kesempatan mengabadikan momen-momen berharga selama di sana.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -516,7 +516,7 @@
               <i class="bi bi-binoculars icon flex-shrink-0"></i>
               <div>
                 <h4 class="title">Tips Tambahan</h4>
-                <p class="description">Jangan lupa membawa air minum pribadi untuk menjaga tubuh tetap terhidrasi, terutama saat cuaca panas. Selalu ikuti rambu dan petunjuk keselamatan, khususnya di area tebing dan Water Blow. Terakhir, tetap jaga kebersihan dengan tidak membuang sampah sembarangan agar keindahan Peninsula Island tetap terjaga dan bisa dinikmati semua pengunjung.</p>
+                <p class="description" style="text-align: justify;">Jangan lupa membawa air minum pribadi untuk menjaga tubuh tetap terhidrasi, terutama saat cuaca panas. Selalu ikuti rambu dan petunjuk keselamatan, khususnya di area tebing dan Water Blow. Terakhir, tetap jaga kebersihan dengan tidak membuang sampah sembarangan agar keindahan Peninsula Island tetap terjaga dan bisa dinikmati semua pengunjung.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -531,7 +531,7 @@
           <i class="bi bi-clock icon flex-shrink-0"></i>
           <div>
             <h4 class="title">Jam Operasional</h4>
-            <p class="description">
+            <p class="description" style="text-align: justify;">
               Peninsula Island terbuka untuk umum setiap hari dari <b>pukul 06.00 hingga 22.00 WITA.</b> Pengunjung bebas menikmati kawasan ini sepanjang jam operasional tersebut, mulai dari jalan santai, jogging, hingga bersantai menikmati pemandangan. Khusus untuk area <b>Waterblow</b>, biasanya jam operasionalnya lebih terbatas, yakni mulai <b>pukul 09.00 hingga 17.00 WITA</b>. Disarankan untuk datang di pagi atau sore hari agar bisa menikmati suasana yang lebih nyaman dan tidak terlalu panas. 
             </p>
           </div>
@@ -543,7 +543,7 @@
             <h4 class="title">
               Tiket Masuk
             </h4>
-            <p class="description">
+            <p class="description" style="text-align: justify;">
               Tidak ada biaya tiket masuk untuk mengunjungi Peninsula Island. <br>
               Peninsula Island sendiri dapat dikunjungi tanpa biaya tiket masuk. Namun, bagi pengunjung yang ingin menikmati Waterblow, yaitu atraksi yang terkenal dengan percikan air besar yang terjadi saat ombak menghantam tebing, terdapat biaya masuk. 
               <b>Biaya masuk untuk mengunjungi Waterblow adalah sekitar Rp20.000 - Rp30.000 per orang.</b> 
